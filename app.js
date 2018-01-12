@@ -10,7 +10,7 @@ var T = new Twitter(config);
 
 // Set up your search parameters
 var params = {
-  q: '@freecodecamp',
+  q: '@CORSAIR',
   count: 1,
   result_type: 'recent',
   lang: 'en'
@@ -21,9 +21,9 @@ var INTERVAL = 1*60*60*1000;
 
 //set up array of tweets that can be randomly selected
 var TWEETS_TO_REPLY = [
-    "Tweet 1",
-    "Tweet 2",
-    "Tweet 3"
+    "I purchased a GTX 1080 TI and ordered 2 day shipping with UPS Second Day Air. Instead I received Fed Ex International Priority. It took 12 days to receive my product, because the shipping manager forgot to include customs info. Not what I paid for. I demand a refund on shipping!",
+    "I purchased 2 day shipping, not 12 day shipping for my GTX 1080 TI. Shipping manager forgot to send information to clear customs. Unacceptable. I demand a refund for shipping!",
+    "Customer service rep told me my GTX 1080 TI would ship from California, not Taiwan. Paid for 2 day shipping and got 12 day shipping instead all because shipping manager forgot to send customs info. I demand a refund."
 ];
 
 function BotStart() {
