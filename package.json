@@ -1,0 +1,23 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Node JS Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristof Litavecz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krizsoo/twitterbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krizsoo/twitterbot/issues"
+  },
+  "homepage": "https://github.com/krizsoo/twitterbot#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}
